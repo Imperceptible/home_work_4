@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 .clearfix:after {
@@ -8,11 +9,6 @@
     clear: both;
     display: block;
 }
-
-/*body {
-    background-image: url(/images/background.jpg);
-    background-repeat: repeat-x;
-}*/
 
 .all {
     width: 1000px;
@@ -31,13 +27,15 @@
     }
 
 .contact {
-    margin-bottom: 33px;
+    margin-bottom: 40px;
+    margin-top: 10px;
     width: 100%;
     float: right;
 }
 
 .cont {
     float: right;
+    font-size: 12px;
 }
 
 .icons {
@@ -56,7 +54,7 @@
 }
 
 .country a {
-    font: 10px sans-serif;
+    font-size: 10px;
     color: #128aa7;
 }
 
@@ -71,3 +69,92 @@
 
 /* закончилось foto*/
 /*началось menu*/
+
+ul {
+    display: block;
+    list-style: none;
+}
+
+/*ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}*/
+
+.menu {
+    margin-top: 1px;
+    background: linear-gradient(to bottom, #373737, #303030);
+    font-size: 14px;
+    height: 30px;
+    border-bottom: solid 1px black;
+}
+
+ul.mainmenu > li {
+    float: left;
+    position: relative;
+
+}
+
+ul.mainmenu > li > a {
+    display: block;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    padding-right: 39px;
+}
+
+ul.mainmenu > li > a:first-child {
+    padding-left: 35px;
+}
+
+/*ul.mainmenu > li > a:hover {
+    background-color: black;
+}*/
+
+ul.submenu.travel {
+    display: none;
+    position: absolute;
+    width: 161px;
+    top: 31px;
+    left: 0;
+}
+
+ul.submenu.service {
+    display: none;
+    position: absolute;
+    width: 117px;
+    top: 31px;
+    left: 0;
+}
+
+ul.submenu.partner {
+    display: none;
+    position: absolute;
+    width: 147px;
+    top: 31px;
+    left: 0;
+}
+
+ul.submenu > li {
+    display: block;
+}
+
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: #303030;
+    text-decoration: none;
+}
+
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+
+ul.mainmenu > li:hover > ul.submenu {
+    display: block;
+}
+
+/* капец меню*/
+/* начался контент, три колонки*/
