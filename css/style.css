@@ -19,3 +19,55 @@
     margin: 0 auto;
 
 }
+
+.logo {
+    float: left;
+    margin-top: 11px;
+}
+
+.headright {
+    float: right;
+    margin-right: 30px;
+    }
+
+.contact {
+    margin-bottom: 33px;
+    width: 100%;
+    float: right;
+}
+
+.cont {
+    float: right;
+}
+
+.icons {
+    float: right;
+
+}
+
+.country {
+    float: left;
+}
+
+.country img {
+    display: block;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.country a {
+    font: 10px sans-serif;
+    color: #128aa7;
+}
+
+/* досюда все header*/
+/* отсюда начинается foto*/
+
+.foto {
+    height: 237px;
+    border-top: solid 1px #128aa7;
+    border-bottom: solid 1px #128aa7;
+}
+
+/* закончилось foto*/
+/*началось menu*/
