@@ -13,6 +13,7 @@
 .all {
     width: 1000px;
     margin: 0 auto;
+    /*border-right: linear-gradient ;*/
 }
 
 body {
@@ -177,9 +178,7 @@ ul.mainmenu > li:hover > ul.submenu {
 span {
     position: absolute;
     top: 15px;
-    left: 123px;
-
-}
+    display: inline-block;}
 
 .caret {
     /*background: red;*/
@@ -189,10 +188,10 @@ span {
     position: absolute;
     top: 0;
     right: 0;*/
-    border: solid 10px #26e016;
+    border: solid 7px white;
     border-bottom: 0;
-    border-left: solid 4px transparent;
-    border-right: solid 4px transparent;
+    border-left: solid 3px transparent;
+    border-right: solid 3px transparent;
     display: inline-block;
     margin-left: 4px;
 }
