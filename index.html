@@ -21,26 +21,26 @@
                 <p>info@asia-holidays.com</p>
                 </div>
             </div>
-            <div class="icons clearfix">
-                <div class="country">
-                    <img src="images/maldives.jpg" alt="Мальдивы"><a href="#">Мальдивы</a>
-                </div>
-                <div class="country">
-                    <img src="images/india.jpg" alt="Индия"><a href="#">Индия</a>
-                </div>
-                <div class="country">
-                    <img src="images/nepal.jpg" alt="Непал"><a href="#">Непал</a>
-                </div>
-                <div class="country">
-                    <img src="images/tibet.jpg" alt="Тибет"><a href="#">Тибет</a>
-                </div>
-                <div class="country">
-                    <img src="images/butan.jpg" alt="Бутан"><a href="#">Бутан</a>
-                </div>
-                <div class="country">
-                    <img src="images/sri-lanka.jpg" alt="Шри-Ланка"><a href="#">Шри-Ланка</a>
-                </div>
-            </div>
+            <ul class="icons clearfix">
+                <li class="country">
+                    <a href="#"><img src="images/maldives.jpg" alt="Мальдивы">Мальдивы</a>
+                </li>
+                <li class="country">
+                    <a href="#"><img src="images/india.jpg" alt="Индия">Индия</a>
+                </li>
+                <li class="country">
+                    <a href="#"><img src="images/nepal.jpg" alt="Непал">Непал</a>
+                </li>
+                <li class="country">
+                    <a href="#"><img src="images/tibet.jpg" alt="Тибет">Тибет</a>
+                </li>
+                <li class="country">
+                    <a href="#"><img src="images/butan.jpg" alt="Бутан">Бутан</a>
+                </li>
+                <li class="country">
+                    <a href="#"><img src="images/sri-lanka.jpg" alt="Шри-Ланка">Шри-Ланка</a>
+                </li>
+            </ul>
         </div>
     </header>
     <div class="foto"><!-- главная фотка -->
@@ -49,7 +49,7 @@
     <div class="menu"><!-- главное меню -->
         <ul class="mainmenu clearfix">
             <li><a href=#>Главная</a></li>
-            <li><a href=#>Путешествие</a>
+            <li class="submenu_item"><a href=#>Путешествие <span class="caret"></span></a>
                 <ul class="submenu travel clearfix">
                     <li><a href=#>Далекое Далеко</a></li>
                     <li><a href=#>В гости к сказке</a></li>
@@ -58,7 +58,7 @@
                     <li><a href=#>Вверх по Миссисипи</a></li>
                 </ul>
             </li>
-            <li><a href=#>Услуги</a>
+            <li class="submenu_item"><a href=# >Услуги <span class="caret"></span></a>
                 <ul class="submenu service clearfix">
                     <li><a href=#>Услуга_1</a></li>
                     <li><a href=#>Услуга_2</a></li>
@@ -66,7 +66,7 @@
                     <li><a href=#>Другая услуга</a></li>
                 </ul>
             </li>
-            <li><a href=#>Партнерам</a>
+            <li class="submenu_item"><a href=# >Партнерам <span class="caret"></span></a>
                 <ul class="submenu partner clearfix">
                     <li><a href=#>Всем партнерам</a></li>
                     <li><a href=#>Одному партнеру</a></li>
@@ -78,28 +78,36 @@
             <li><a href=#>Контакты</a></li>
         </ul>
     </div>
-    <div class="content"><!-- три блока контента -->
-        <table cols="3" class="table">
-            <tbody>
-            <td valign="top" class="left">
-                <div>
-                    <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</p>
+    <div class="content clearfix"><!-- три блока контента -->
+        <div class="right_fon">
+            <div class="center_fon">
+                <div class="left_fon">
+                    <div class="left column">
+                        <div class="tank"></div>
+                        <h3>Информация</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet
+                        </p>
+                       </div>
+                    <div class="center column">
+                        <div class="tank"></div>
+                        <h3></h3>
+                        <p>
+                            Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet
+                        </p>
+                    </div>
+                    <div class="right column">
+                        <div class="tank">q</div>
+                        <h3>Новости</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
                 </div>
-                            </td>
-            <td valign="top" class="center">
-                <div>
-                    <p>
+            </div>
 
-                    </p>
-                </div>
-            </td>
-            <td valign="top" class="right">
-                <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper enim urna, non ullamcorper enim finibus id. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris eget libero congue, congue eros in, ullamcorper leo. Sed iaculis vitae augue nec congue.</p>
-                </div>
-            </td>
-            </tbody>
-        </table>
+        </div>
+
     </div>
     <p class="copyright clearfix">Copyright &copy asia-holidays.com. 2010</p>
 </div>

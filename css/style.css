@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 
-.clearfix:after {
+.clearfix {
     content: '';
     clear: both;
     display: block;
@@ -53,8 +53,11 @@ header {
 
 .icons {
     float: right;
-
 }
+
+/*.icons img {
+    transition: opacity linaer .2s;
+}*/
 
 .country {
     float: left;
@@ -73,6 +76,9 @@ header {
     font-weight: 700;
 }
 
+/*.contry:hover img {
+    opacity: .5;
+}*/
 /* досюда все header*/
 /* отсюда начинается foto*/
 
@@ -104,6 +110,8 @@ ul {
     border-bottom: solid 1px black;
 }
 
+
+
 ul.mainmenu > li {
     float: left;
     position: relative;
@@ -114,11 +122,11 @@ ul.mainmenu > li > a {
     padding: 8px;
     color: white;
     text-decoration: none;
-    padding-right: 39px;
+    padding-right: 35px;
 }
 
 ul.mainmenu > li > a:first-child {
-    padding-left: 35px;
+    padding-left: 33px;
 }
 
 ul.submenu.travel {
@@ -163,38 +171,107 @@ ul.submenu > li > a:hover {
 
 ul.mainmenu > li:hover > ul.submenu {
     display: block;
+    z-index: 10;
 }
 
-/* капец меню*/
+span {
+    position: absolute;
+    top: 15px;
+    left: 123px;
+
+}
+
+.caret {
+    /*background: red;*/
+    /*content: '';*/
+    /*width: 0px;
+    height: 0;
+    position: absolute;
+    top: 0;
+    right: 0;*/
+    border: solid 10px #26e016;
+    border-bottom: 0;
+    border-left: solid 4px transparent;
+    border-right: solid 4px transparent;
+    display: inline-block;
+    margin-left: 4px;
+}
+
+
+/* конец меню*/
 /* начался контент, три колонки*/
 
-.table {
-    height: 450px;
-    width: 1000px;
-    table-layout: fixed;
-    border-collapse: collapse;
-    box-sizing: border-box;
+.content {
+    overflow: hidden;
+}
+
+.right_fon {
+    float: left;
+    width: 100%;
+    background: #edeef0;
+    overflow: hidden;
+    position: relative;
+}
+
+.center_fon {
+    float: left;
+    width: 100%;
+    background: white;
+    position: relative;
+    right: 21%;
+}
+
+.left_fon {
+    float: left;
+    width: 100%;
+    background: #edeef0;
+    position: relative;
+    right: 58%;
+}
+
+.column {
+    float: left;
+    position: relative;
+    left: 79%;
+    overflow: hidden;
 }
 
 .left {
-    width: 210px;
-    border-right: 1px solid #c7cacf;
-    background-color: #edeef0;
+    width: 21%;
 }
 
 .center {
-    width: 578px;
-    background-color: white;
-    border-right: 1px solid #c7cacf;
+    width: 58%;
 }
 
 .right {
-    width: 210px;
-    background-color: #edeef0;
+    width: 21%;
 }
 
-td div {
-    margin: 7px;
+.column p {
+    padding: 6px;
+}
+
+h3 {
+    text-align: center;
+    margin:4px 0 4px 0;
+}
+
+.left .tank{
+    position: absolute;
+    border-right: solid 1px #c7cacf;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.right .tank {
+    background-color: #26e016;
+    position: absolute;
+    border-right: solid 1px #c7cacf;
+    top: 0;
+    left: 0;
+    height: 100%;
 }
 
 .copyright {
