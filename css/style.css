@@ -257,21 +257,12 @@ h3 {
     margin:4px 0 4px 0;
 }
 
-.left .tank{
+.tank{ /*бордеры*/
     position: absolute;
     border-right: solid 1px #c7cacf;
     top: 0;
     right: 0;
-    height: 100%;
-}
-
-.right .tank {
-    background-color: #26e016;
-    position: absolute;
-    border-right: solid 1px #c7cacf;
-    top: 0;
-    left: 0;
-    height: 100%;
+    bottom: 0;
 }
 
 .copyright {
