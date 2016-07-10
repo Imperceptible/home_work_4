@@ -13,7 +13,7 @@
 .all {
     width: 1000px;
     margin: 0 auto;
-    /*border-right: linear-gradient ;*/
+    box-shadow: 0px -3px 10px 6px rgba(28, 28, 28, 0.77);
 }
 
 body {
@@ -36,7 +36,7 @@ header {
 .headright {
     float: right;
     margin-right: 30px;
-    }
+}
 
 .contact {
     margin-bottom: 40px;
@@ -56,10 +56,6 @@ header {
     float: right;
 }
 
-/*.icons img {
-    transition: opacity linaer .2s;
-}*/
-
 .country {
     float: left;
     text-align: center;
@@ -77,9 +73,7 @@ header {
     font-weight: 700;
 }
 
-/*.contry:hover img {
-    opacity: .5;
-}*/
+
 /* досюда все header*/
 /* отсюда начинается foto*/
 
@@ -95,13 +89,13 @@ header {
     border-bottom: solid 1px #128aa7;
 }
 
-/* закончилось foto*/
-/*началось menu*/
-
 ul {
     display: block;
     list-style: none;
 }
+
+/* закончилось foto*/
+/*началось menu*/
 
 .menu {
     margin-top: 1px;
@@ -109,14 +103,10 @@ ul {
     font-size: 14px;
     height: 30px;
     border-bottom: solid 1px black;
-
-    /* Shadow */
-    box-shadow: 0px 15px red;
+    box-shadow: 0 4px 3px 0 #555555;
     position: relative;
     z-index: 1;
 }
-
-
 
 ul.mainmenu > li {
     float: left;
@@ -128,35 +118,31 @@ ul.mainmenu > li > a {
     padding: 8px;
     color: white;
     text-decoration: none;
-    /*padding-right: 35px;*/
+    padding-right: 38px;
 }
 
 ul.mainmenu > li > a:first-child {
-    /*padding-left: 33px;*/
+    padding-left: 36px;
+}
+
+ul.submenu {
+    box-shadow: 0 2px 4px 2px #555555;
+    display: none;
+    position: absolute;
+    top: 31px;
+    left: 0;
 }
 
 ul.submenu.travel {
-    display: none;
-    position: absolute;
     width: 161px;
-    top: 31px;
-    left: 0;
 }
 
 ul.submenu.service {
-    display: none;
-    position: absolute;
     width: 117px;
-    top: 31px;
-    left: 0;
 }
 
 ul.submenu.partner {
-    display: none;
-    position: absolute;
     width: 147px;
-    top: 31px;
-    left: 0;
 }
 
 ul.submenu > li {
@@ -186,13 +172,6 @@ span {
     display: inline-block;}
 
 .caret {
-    /*background: red;*/
-    /*content: '';*/
-    /*width: 0px;
-    height: 0;
-    position: absolute;
-    top: 0;
-    right: 0;*/
     border: solid 7px white;
     border-bottom: 0;
     border-left: solid 3px transparent;
@@ -200,7 +179,6 @@ span {
     display: inline-block;
     margin-left: 4px;
 }
-
 
 /* конец меню*/
 /* начался контент, три колонки*/
