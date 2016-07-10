@@ -109,6 +109,9 @@ ul {
     font-size: 14px;
     height: 30px;
     border-bottom: solid 1px black;
+
+    /* Shadow */
+    box-shadow: 0px 5px red;
 }
 
 
@@ -123,11 +126,11 @@ ul.mainmenu > li > a {
     padding: 8px;
     color: white;
     text-decoration: none;
-    padding-right: 35px;
+    /*padding-right: 35px;*/
 }
 
 ul.mainmenu > li > a:first-child {
-    padding-left: 33px;
+    /*padding-left: 33px;*/
 }
 
 ul.submenu.travel {
